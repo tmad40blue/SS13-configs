@@ -247,22 +247,22 @@ GHOST_INTERACTION
 COMMS_PASSWORD grumpycat2
 
 ## Uncomment to enable sending data to the IRC bot.
-#USE_IRC_BOT
+USE_IRC_BOT
 
 ## Host(s) where the IRC bot is hosted.  Seperate IP's by ;.  Port 45678 needs to be open.
-#IRC_BOT_HOST chat.freenode.net
+IRC_BOT_HOST 127.0.0.1;localhost
 
 ## IRC channel to send information to.  Leave blank to disable.
-#MAIN_IRC #tmad40blue
+#MAIN_IRC #main
 
 ## IRC channel to send adminhelps to.  Leave blank to disable adminhelps-to-irc.
-#ADMIN_IRC #tmad40blue
+#ADMIN_IRC #admin
 
 ## IRC channel to send direct messages to admins to. Leave blank to disable.
-#ADMIN_NOTIFY_IRC #tmad40blue
+#ADMIN_NOTIFY_IRC #paradiseStaff
 
 ## IRC channel to log CID randomizer blocker hits to. Leave blank to silence
-#CIDRANDOMIZER_IRC #tmad40blue
+#CIDRANDOMIZER_IRC #cidrandomizer
 
 ## Path to the python2 executable on the system.  Leave blank for default.
 ## Default is "python" on Windows, "/usr/bin/env python2" on UNIX.
@@ -304,7 +304,7 @@ PLAYER_REROUTE_CAP 0
 #DISABLE_SPACE_RUINS
 
 ## Uncomment to disable the OOC/LOOC channel by default.
-#DISABLE_OOC
+DISABLE_OOC
 
 ## Uncomment to disable the dead OOC channel by default.
 #DISABLE_DEAD_OOC
@@ -319,7 +319,7 @@ DISABLE_LOBBY_MUSIC
 #DISABLE_CID_WARN_POPUP
 
 ## How many loadout points players may spend in character setup
-MAX_LOADOUT_POINTS 5
+MAX_LOADOUT_POINTS 30
 
 # How many minutes players must wait, from round start, before they can ghost out
 # and still qualify for re-entering the round. Defaults to 30.
